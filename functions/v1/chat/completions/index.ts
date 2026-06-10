@@ -218,6 +218,9 @@ export async function onRequest({ request, env }: any) {
         '@tx/deepseek-ai/deepseek-r1-distill-qwen-32b',
         '@tx/deepseek-ai/deepseek-r1-0528',
         '@tx/deepseek-ai/deepseek-v3-0324',
+        '@tx/deepseek-ai/deepseek-v4',
+        'glm-5.1',
+        'hy3-preview'
       ];
 
       // Use the model parameter, fallback to default if not provided
